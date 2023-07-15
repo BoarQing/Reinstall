@@ -18,5 +18,7 @@ echo "$password" | sudo -S apt install cmake
 echo "$password" | sudo -S apt install build-essential
 echo "$password" | sudo -S apt install pip
 echo "$password" | sudo -S apt install vim
+echo "$password" | sudo -S apt install zip
+echo "$password" | sudo -S apt install gh
 
 pip install -r requirement.txt
