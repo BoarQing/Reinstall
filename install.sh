@@ -20,5 +20,7 @@ echo "$password" | sudo -S apt install pip
 echo "$password" | sudo -S apt install vim
 echo "$password" | sudo -S apt install zip
 echo "$password" | sudo -S apt install gh
+echo "$password" | sudo -S apt install clang-format
+echo "$password" | sudo -S apt install valgrind
 
 pip install -r requirement.txt
